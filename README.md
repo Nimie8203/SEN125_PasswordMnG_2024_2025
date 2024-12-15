@@ -1,4 +1,4 @@
-This project has been worked on by:
+### CONTRIBUTERS
 
 Nima Vakiliazar - B2405.090178
 Ahmad - 
