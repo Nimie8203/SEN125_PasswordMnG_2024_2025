@@ -1,9 +1,9 @@
 ### CONTRIBUTERS
 
-Nima Vakiliazar - B2405.090178
+Nima Vakiliazar - B2405.090178 
 Ahmad - 
-Muhammad -
-Dicle -
+Muhammad - 
+Dicle - 
 Imaad - 
 
 ### PURPOSE
