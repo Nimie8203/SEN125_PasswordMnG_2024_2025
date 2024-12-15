@@ -1,6 +1,6 @@
 ### GROUP
 
-Nima Vakiliazar (B2405.090178), Ahmed Bakrsedqi (B2405.090238), Muhammad Abdulmajeed (), Dicle Yıldız () , Imaad Khan (B2405.090259)
+Nima Vakiliazar (B2405.090178), Ahmed Bakrsedqi (B2405.090238), Muhammad Abdulmajeed (B2405.090005), Dicle Yıldız () , Imaad Khan (B2405.090259)
 
 
 ### PURPOSE
