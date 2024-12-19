@@ -15,7 +15,24 @@ public class Interfaces {
 
     public void drawGenerator(Generator generator, Storage storage) {
         System.out.println("\n=== PASSWORD GENERATOR ===");
-        String generatedPassword = generator.generatePassword();
+
+        System.out.print("Enter desired password length (minimum 6): ");
+        int length = getUserInput();
+        if (length < 6) {
+            System.out.println("Password length must be at least 6 characters.");
+            return;
+        }
+
+        System.out.print("Include uppercase letters? (y/n): ");
+        boolean includeUppercase = scanner.next().equalsIgnoreCase("y");
+
+        System.out.print("Include digits? (y/n): ");
+        boolean includeDigits = scanner.next().equalsIgnoreCase("y");
+
+        System.out.print("Include special characters? (y/n): ");
+        boolean includeSpecial = scanner.next().equalsIgnoreCase("y");
+
+        String generatedPassword = generator.generatePassword(length, includeUppercase, includeDigits, includeSpecial);
         System.out.println("Generated Password: " + generatedPassword);
 
         System.out.print("Do you want to save this password? (y/n): ");
