@@ -8,8 +8,23 @@ public class Interfaces {
     public void drawMainMenu() {
         System.out.println("===== PASSWORD MANAGER MENU =====");
         System.out.println("1. Manage Passwords");
+        System.out.println("2. Generate Password");
         System.out.println("0. Exit");
         System.out.print("Select an option: ");
+    }
+
+    public void drawGenerator(Generator generator, Storage storage) {
+        System.out.println("\n=== PASSWORD GENERATOR ===");
+        String generatedPassword = generator.generatePassword();
+        System.out.println("Generated Password: " + generatedPassword);
+
+        System.out.print("Do you want to save this password? (y/n): ");
+        if (scanner.next().equalsIgnoreCase("y")) {
+            System.out.print("Enter Username: ");
+            String username = scanner.next();
+            storage.saveEntry(username, generatedPassword, "Unknown");
+            System.out.println("Password saved successfully!");
+        }
     }
 
     public void drawManagerMenu(Storage storage) {

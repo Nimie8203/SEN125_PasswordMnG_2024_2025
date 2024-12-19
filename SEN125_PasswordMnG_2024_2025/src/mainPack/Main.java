@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Storage storage = new Storage();
         Interfaces interfaces = new Interfaces();
+        Generator generator = new Generator();
 
         int userInput = -1;
 
@@ -14,6 +15,10 @@ public class Main {
             switch (userInput) {
                 case 1: // Manager
                     interfaces.drawManagerMenu(storage);
+                    break;
+
+                case 2: // Password Generator
+                    interfaces.drawGenerator(generator, storage);
                     break;
 
                 case 0: // Exit
