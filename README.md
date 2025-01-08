@@ -38,7 +38,7 @@ Language used is Java.
 ## How to Use
 
 ### 1. Start the Application
-Run the application to display the main menu.
+There are two ways to do this, either run by cloning the repo and compile it yourself or run the application using the provided executable to display the main menu.
 
 ### 2. Main Menu
 The main menu offers the following options:
