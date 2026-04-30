@@ -21,15 +21,7 @@ A secure and user-friendly console-based Password Manager application. This tool
 
 ## The Group
 
-- Nima Vakiliazar (B2405.090178)
-
-- Ahmed Bakrsedqi (B2405.090238)
-
-- Muhammad Abdulmajeed (B2405.090005)
-
-- Dicle Yıldız (B2305.090240)
-
-- Imaad Khan (B2405.090259)
+REDACTED
 
 ## Programming Language
 
